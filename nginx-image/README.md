@@ -1,4 +1,5 @@
 ## Prerequisite
+Docker must be installed
 
 
 1) Public repo in dockerhub
