@@ -21,8 +21,8 @@ input="username.txt"
 IFS=$'\n'
 for username in `cat $input`; do
    echo "$username"
-   echo "login into $hostname"
-   ssh "$hostname" -l ubuntu " sudo useradd -m -s /bin/bash "$username"; echo ""$username":"$password"" | sudo chpasswd "
+   echo "login into $hostname with ubuntu user"
+   ssh "$hostname" -l ubuntu " sudo useradd -m -s /bin/bash "$username"; echo ""$username":"$password"" | sudo chpasswd " 
    cat "$path/$filename.pub" |sshpass -p "$password" ssh "$hostname" -l "$username" ' [ -d ~/.ssh ] || \
                                                              mkdir -p ~/.ssh ; \
                                                              cat > ~/.ssh/KEY ; \
