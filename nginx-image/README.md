@@ -27,5 +27,14 @@ docker tag nginx:1.0.0 vanshmadan12/public-nginx:latest
 ```bash
 docker push vanshmadan12/public-nginx:latest
 ```
+7) Validate it on docker hub or by docker pull
+```bash
+docker pull vanshmadan12/public-nginx:latest
+```
+
+<img width="1310" alt="image" src="https://user-images.githubusercontent.com/31353777/183261818-a2e43366-33c5-463c-897d-893547db55b2.png">
+
+
+
 
 
