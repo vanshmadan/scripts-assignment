@@ -8,7 +8,7 @@ Docker must be installed
 
 2) Build Docker image
 ```bash
- docker build -t nginx:1.0.1 .
+ docker build -t nginx:1.0.0 .
 ```
 
 3) Run docker container
@@ -19,5 +19,13 @@ docker run --name nginx -d -p 8080:80 nginx:1.0.0
 4) Open browser, add url localhost:8080
 <img width="1436" alt="image" src="https://user-images.githubusercontent.com/31353777/183261240-3a17345e-57d1-4482-849f-bd2f1d3f737f.png">
 
+5) Tag docker images, with latest version
+```bash
+docker tag nginx:1.0.0 vanshmadan12/public-nginx:latest
+```
+6) Push docker image to docker hub
+```bash
+docker push vanshmadan12/public-nginx:latest
+```
 
 
