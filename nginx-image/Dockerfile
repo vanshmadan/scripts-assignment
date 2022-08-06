@@ -4,7 +4,7 @@ LABEL version="0.1"
 LABEL description="This is custom Docker Image for Nginx Services."
 RUN apt-get update \
     && apt-get install -y \
-    nginx \
+    nginx \                                                ### Mentioned packages installtion curl,wget,python3
     curl  \
     python3 \
     wget \
