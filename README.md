@@ -6,3 +6,6 @@
 - Hostname/Hostip on which you want to create user
 - password one time to create user
 
+
+<img width="1094" alt="image" src="https://user-images.githubusercontent.com/31353777/183262115-9d0dec5e-d141-4ef6-98a7-5b70c65a5c46.png">
+
