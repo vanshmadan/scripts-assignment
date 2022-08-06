@@ -17,3 +17,12 @@ Blue 2
 RED 8
 gReen 0
 ```
+
+## Ouput
+```bash
+Red 9
+Blue 7
+Yellow 3
+Green 4
+Magenta 3
+```
