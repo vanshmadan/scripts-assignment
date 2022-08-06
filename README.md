@@ -1,4 +1,4 @@
-# scripts-assignment
+# Scripts-assignment
 
 Please find links to answers
 
